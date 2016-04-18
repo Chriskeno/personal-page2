@@ -1,0 +1,216 @@
+/*   
+Project: Hello World Personal Page
+Project URI: http://timpotter.github.io
+Author: Tim Potter
+Author URI: http://littlethunder.co
+*/
+
+
+/* Reset Browser Defaults*/
+
+* {
+  padding:0;
+  margin: 0;
+}
+
+
+
+/* Typography */
+body {
+  font-family:'Montserrat', sans-serif;
+  font-weight: 100;
+  color: #;
+   -webkit-font-smoothing: antialiased;
+    background: url(../images/background2.png)  top center no-repeat fixed;
+    background-size:cover;
+    background-color: rgba(253,205,139,0.4)
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header p {
+    margin-right:1.6em;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    padding-left:em;
+  letter-spacing: 6px;
+  font-weight: 200;
+
+}
+
+section{
+width: 35em;
+    padding-right: 2em;
+
+}
+
+section h2{
+    margin-right: 5em;
+padding-bottom: 1em;
+    padding-top:1em;}
+
+h1 {
+  font-weight: 10;
+  font-size: 3.6em; /* 48/16 */
+padding-left:0em;
+    margin-right: 2em;
+  margin-bottom: 49px;
+  line-height: 1em;
+}
+
+section p {
+  line-height: 1.9em;
+    font-size: 1.2em;
+    margin-right: 3em;
+
+}
+
+
+article p {
+padding-right: 6em;}
+
+article h2 {
+padding-right: 4.5em;
+margin-right: 5em}
+
+/*----nav----*/
+nav
+{position:fixed;
+top: 0px;
+    left: 0;
+    margin: 1.5em;
+    width: 100%;
+}
+
+nav 
+{
+padding: 0.5em 0;
+margin-bottom: 0.4em;
+}
+
+nav ul 
+{text-align: center;
+}
+
+nav ul li 
+{display: inline;
+margin: 20px;}
+/*-----links------------*/
+a {
+color:darkgray;
+text-decoration:none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a:hover {
+          color:white;
+          border-bottom: 1px dotted;
+        }
+
+.svglinks {
+padding-right: 5em;
+margin-right: 2em;}
+
+.svglinks a {
+  opacity: 0.6;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.svglinks a:hover {
+  opacity: 0.8;
+}
+
+.svglinks li {
+  display: inline;
+  margin: 0px;
+  color: #444;
+}
+
+.svglinks li img {
+  width: 0px;
+    display: inline;
+padding-left: 0em;
+    padding-top: 1em;
+}
+
+.svglinks ul {
+margin-left: -5em;}
+
+
+.svglinks a:hover {
+        padding: 5px;
+        /*background:;
+        color: #fff;*/
+        border-bottom: none;
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out; 
+		-o-transition: all 0.3s ease-in-out;
+			transition: all 0.3s ease-in-out;
+        border-radius: 1em;}
+
+
+.social a {
+  opacity: 0.3;
+  transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.social a:hover {
+  opacity: 0.8;
+}
+
+.social li {
+  display: inline;
+  margin: 2px;
+  color: #444;
+
+}
+
+/* Images */
+
+
+img.avatar {
+  margin-bottom: 10em;
+  width: 200px;
+  height: 150px;
+  margin-top: -497px;
+    margin-left: -8em;
+}
+
+.social li img {
+    
+  width: 45px;
+    padding-left: 0em;
+    margin-left:1em;
+    margin-right: 1em;
+}
+
+/* Layout */
+
+.container {
+    float: inherit;
+  width: 38%;
+    margin-top: 31.5em;
+    padding-left: 28em;
+    padding-right: 24.3em;
+  background-color:rgba(139, 125, 107, 0.5);
+  border-radius: px;
+}
+
+.social {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.social p{
+    padding-right: 1em;
+    margin-left: -6em;
+    
+    }
